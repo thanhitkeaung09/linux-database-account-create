@@ -1,0 +1,7 @@
+sudo mysql
+
+create user 'than' identified by 'Than@123'; ( ပြန် host )
+
+grant all privileges on *.* to 'than';
+
+flush privileges
